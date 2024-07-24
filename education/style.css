@@ -1,0 +1,215 @@
+
+body {
+   
+    margin: 0;
+    padding: 0;
+}
+header, nav, section, footer {
+    margin: 10px;
+
+    
+}
+header{  
+
+    margin-top: 0px;
+    height: 0px;
+    text-align: left;
+    padding: 1em 0;
+  
+}    
+
+header img
+{   
+ display: flex;
+    margin: 0px;
+    width: 100%;
+    height: 250px ;
+    border-radius: 10px;
+}
+nav {
+    text-align:center;
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    
+
+}
+nav ul li {
+    display: flex;
+    list-style-type: none;
+    display:inline-block;
+    padding: 10px 10px;
+    
+  
+}
+nav ul li:hover{
+    background-color:F5D5ED;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+
+}
+.hero-section {
+    text-align:center;
+   
+    margin-left: 100px;
+  
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+footer {
+
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position:none;
+    bottom: 0;
+    width: 100%;
+}
+.courses-section
+{  
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid black;
+    height: 100%;
+    width: 99%;
+   margin-top: 100px;
+
+   font-style: normal;
+
+}
+.photo img
+{   display: flex;
+
+ 
+    width: 100%;
+    height: 100%;
+    float: left;
+    box-shadow: 2px 2px 2px black;
+}
+.tutorials-section{
+  display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid black;
+    height: 100%;
+    width: 99%;
+   margin-top: 100px;
+
+   font-style: normal;
+
+
+}
+.photo2 img
+{   
+    display: flex;
+
+ 
+    width: 100%;
+    height: 100%;
+    float: left;
+     box-shadow: 2px 2px 2px black;
+}
+.blog-section
+{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid black;
+    height: 100%;
+    width: 99%;
+   margin-top: 100px;
+
+   font-style: normal;
+
+}
+.photo3 img
+{   
+    display: flex;
+
+ 
+    width: 100%;
+    height: 100%;
+    float: left;
+ box-shadow: 2px 2px 2px black;
+}
+        .contact-section{
+            color: white;
+            background-color: #333;
+            border: 2px solid black;
+            margin: 10px;
+            text-align: left;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content:left;
+        }
+        .icon {
+
+            height: 100px;
+            display: flex;
+           justify-content: center;
+            text-align: center;
+        }
+
+         .icon a{
+            height: 50px;
+            width: 50px;
+            
+            border-radius: 50px;
+            text-align: center;
+            margin: 10px;
+            line-height: 55px;
+            
+        }
+        .icon a i {
+            transition: all 0.3s linear;
+
+        }
+        .icon a:hover i{
+            transform: scale(1.4);
+        }
+        .fa-whatsapp{
+            color: #25D366;
+        }
+        .fa-facebook
+        {
+            color: #1877F2;
+
+        }
+        .fa-instagram{
+            color: #e84118;
+        }
+        .fa-twitter{
+            color: #000000;
+        }
+        .fa-phone{
+            color: #075E54;
+        }
+        .fa-youtube{
+          color: #FF0000;
+        }
+
